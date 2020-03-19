@@ -1,2 +1,1 @@
-javascript:(()+=>+{window.setInterval(()+=>+{const+btn=document.querySelector('.tw-button--success');if(btn){btn.click()}},+15000)})();
-
+javascript:(() => {window.setInterval(() => {const btn=document.querySelector('.tw-button--success');if(btn){btn.click()}}, 15000)})();
