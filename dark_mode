@@ -1,1 +1,1 @@
-javascript:(() => {document.querySelector('html').style.filter = 'invert(1)';document.querySelectorAll('img').forEach((i) => i.style.filter = 'invert()');})();
+javascript:(() => {const dm = window.dm ? Math.abs(1 - window.dm) : 1;document.querySelector('html').style.filter = `invert(${dm})`;document.querySelectorAll('img').forEach((i) => i.style.filter = `invert(${dm})`);window.dm = dm;})();
